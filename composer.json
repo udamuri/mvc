@@ -1,0 +1,27 @@
+{
+    "name": "udamuri/mvc",
+    "type": "project",
+    "description": "simple PHP MVC framework",
+    "keywords": ["framework", "authentication", "authorization", "mvc", "security", "login", "encryption", "validation", "files", "ajax"],
+    "homepage": "https://github.com/udamuri/mvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muri Budiman",
+            "email": "udamuri@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/udamuri/mvc"
+    },
+    "require": {
+        "php": ">=5.5.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    }
+}
